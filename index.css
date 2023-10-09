@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Smythe', cursive;
+    color: #1A1A1A;
+} 
+
+header{
+    margin: 0;
+    padding: 20px;
+    background-image: url("images/burger.jpg");
+    background-size: fit;
+    background-position: left;
+    color: white;
+}
+h3{
+    margin: 0;
+    font-size: 16px;
+}
+
+.container{
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.product{
+    margin: 0 10px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.menu-item{
+    display: flex;  
+    margin: 0;
+    padding: 0;
+}
+
+.emoji{
+    margin: auto;
+    padding: 10px;
+    font-size: 36px;
+}
+
+.product-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    margin: auto;
+    padding: 5px;
+}
+.name{
+    margin: 0;
+    padding: 0;
+}
+.price{
+    margin:0;
+    padding: 0; 
+    font-size: 20px 
+}
+.ingredients {
+    display: flex;
+    padding: 0;
+    align-items: flex-start;
+    color: lightslategray
+}
+.button{
+    
+    width: 40px;
+    height: 20px;
+    font-size: 40px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightslategray;
+}
+
+.order-container{
+    margin: 0;
+    padding: 0;
+}
+.order-el{
+    margin: 0;
+    padding: 2px 20px;
+    display: flex; 
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.remove{
+    
+}
+.total{
+    margin: 0;
+    padding: 0px 10px;
+    display: flex; 
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: bold;
+    border-top: 1px solid lightslategray;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+button{
+    margin: 0;
+    border: none;
+    background-color: #16DB99;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 22px
+}
+
+.complete-order{
+    
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    position: fixed;
+    padding: 20px;
+    top: 100px;
+    left: 50px;
+    right: 50px;
+    bottom: 100px;
+    box-shadow: 0 0 500px grey;
+    background: white;
+    width: 300px
+}
+
+#form h1{
+    font-size: 22px;
+    padding: 10px;
+    color: #1A1A1A;
+}
+
+#form button{
+    padding: 10px;
+    width: 300px;
+    font-size: 22px;
+}
+
+input{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
